@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://file.myfontastic.com/g2tifc6YZyHT5QRMMQt6gP/icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link href="imgs/logo.jpg" type="image/x-icon">
+        <title>Ensortijados</title>
+    </head>
+    <body class="bodyag">
+        <Section>
+        <div class="gradient">
+        <form action="" id="formRegistro">
+            <fieldset>
+                <legend>Dinos de Ti</legend>
+                <label for="nombre">Nombre
+                    <input type="text" id="nombre" maxlength="20" placeholder="escribe tu nombre">
+                </label>
+                <br> <br>
+                <label for="apellido">Apellido
+                    <input type="text" id="apellido" maxlength="20" placeholder="escribe tu apellido">
+                </label>
+
+                <br><br>
+                <label for="correo">Correo Electronico
+                    <input type="email" id="correo" maxlength="20" placeholder="escribe tu correo electronico">
+                </label>
+
+                <br><br>
+                <label for="ConfirmarCorreo">Confirmación Correo Electronico
+                    <input  type="email" id="campoConfirmarCorreo" maxlength="20" placeholder="confirma tu correo electronico">
+                </label>
+                <br><br>
+
+                <label for="">De qué País eres ?
+                    <input type="text" name="pais" id="campoPais" list="paises" required>
+                </label>
+
+                <label for="">De qué ciudad eres ?
+                    <input type="text" name="ciudad" id="campoCiudad" list="ciudades">
+                    
+                    <datalist id="ciudades">
+                        <option value="Medellin">Medellin</option>
+                        <option value="Monteria">Monteria</option>
+                        <option value="Barranquilla">Barranquilla</option>
+                        <option value="Cali">Cali</option>
+                    </datalist>
+                </label>
+
+            </fieldset>
+            
+            <fieldset>
+
+                <legend>Cuéntanos mas !</legend>
+                
+                <!-- texarea -->
+                <h1>Como sientes tu cabello ?</h1>
+                <textarea name="" id="" cols="60" rows="5" ></textarea>
+                <br><br>
+
+            </fieldset>
+
+            
+            <!-- <input type="submit" value="enviar_form"> -->
+            <input type="reset" value="reset">
+            <button type="submit" onclick="validar_confirmar_correo();validar_pais()">Validar</button>
+            </form>
+        </Section>
+        <script src="form5.js"></script>
+    </body>
+</html>

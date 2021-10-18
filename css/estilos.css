@@ -1,0 +1,110 @@
+body{
+    font-family: 'Pacifico', cursive;
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    display: block;
+}
+
+div {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.gradient {
+    background: linear-gradient(to bottom right, white, #ebb591);
+}
+
+.banner-principal {
+    font-size: 20px;
+    color:#ff8138;
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 20;
+    text-align: center;
+    width: 100%;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+/*ini menu desplegable */
+.menu-desplegable ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#button_principal{
+    float: left;
+    text-decoration: none;
+    background: #ee6911;
+    padding: 12px 22px;
+    display: block;
+}
+
+#button_principal button:hover{
+    background:white;
+}
+
+.menu-desplegable #item{
+    float: left;
+} 
+
+/* estiloa a la etiqueta a  */
+.menu-desplegable #item a{
+    text-decoration: none;
+    background: #ee6911;
+    color: white;
+    padding: 12px 22px;
+    display: block;
+}
+
+.menu-desplegable #item a:hover{
+    background: blanchedalmond;
+    color: black;
+}
+
+/* estilos del submenu */
+#menu2 {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+
+.menu-desplegable #item:hover #menu2{ /*para mostrar el menu2*/
+    display: block;
+}
+
+#menu3{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+
+#item:hover #menu3{/*para mostrar el menu3*/
+    display: block;
+}
+
+/* fin menu desplegable */
+
+
+.fotodesarrollador {
+    height: 12em;
+    width: 12em;
+}
+
+.descripciondesarrollador{
+    font-family: 'Pacifico', cursive;
+}
+
+.bodyag {
+    background: linear-gradient(to bottom right, white, #ebb591);
+}
